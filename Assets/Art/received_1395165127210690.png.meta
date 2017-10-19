@@ -1,0 +1,820 @@
+fileFormatVersion: 2
+guid: d35552f37e5d6cd41aac557edb299634
+timeCreated: 1491882214
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: received_1395165127210690_0
+    21300002: received_1395165127210690_1
+    21300004: received_1395165127210690_2
+    21300006: received_1395165127210690_3
+    21300008: received_1395165127210690_4
+    21300010: received_1395165127210690_5
+    21300012: received_1395165127210690_6
+    21300014: received_1395165127210690_7
+    21300016: received_1395165127210690_8
+    21300018: received_1395165127210690_9
+    21300020: received_1395165127210690_10
+    21300022: received_1395165127210690_11
+    21300024: received_1395165127210690_12
+    21300026: received_1395165127210690_13
+    21300028: received_1395165127210690_14
+    21300030: received_1395165127210690_15
+    21300032: received_1395165127210690_16
+    21300034: received_1395165127210690_17
+    21300036: received_1395165127210690_18
+    21300038: received_1395165127210690_19
+    21300040: received_1395165127210690_20
+    21300042: received_1395165127210690_21
+    21300044: received_1395165127210690_22
+    21300046: received_1395165127210690_23
+    21300048: received_1395165127210690_24
+    21300050: received_1395165127210690_25
+    21300052: received_1395165127210690_26
+    21300054: received_1395165127210690_27
+    21300056: received_1395165127210690_28
+    21300058: received_1395165127210690_29
+    21300060: received_1395165127210690_30
+    21300062: received_1395165127210690_31
+    21300064: received_1395165127210690_32
+    21300066: received_1395165127210690_33
+    21300068: received_1395165127210690_34
+    21300070: received_1395165127210690_35
+    21300072: received_1395165127210690_36
+    21300074: received_1395165127210690_37
+    21300076: received_1395165127210690_38
+    21300078: received_1395165127210690_39
+    21300080: received_1395165127210690_40
+    21300082: received_1395165127210690_41
+    21300084: received_1395165127210690_42
+    21300086: received_1395165127210690_43
+    21300088: received_1395165127210690_44
+    21300090: received_1395165127210690_45
+    21300092: received_1395165127210690_46
+    21300094: received_1395165127210690_47
+    21300096: received_1395165127210690_48
+    21300098: received_1395165127210690_49
+    21300100: received_1395165127210690_50
+    21300102: received_1395165127210690_51
+    21300104: received_1395165127210690_52
+    21300106: received_1395165127210690_53
+    21300108: received_1395165127210690_54
+    21300110: received_1395165127210690_55
+    21300112: received_1395165127210690_56
+    21300114: received_1395165127210690_57
+    21300116: received_1395165127210690_58
+    21300118: received_1395165127210690_59
+    21300120: received_1395165127210690_60
+    21300122: received_1395165127210690_61
+    21300124: received_1395165127210690_62
+    21300126: received_1395165127210690_63
+    21300128: received_1395165127210690_64
+    21300130: received_1395165127210690_65
+    21300132: received_1395165127210690_66
+    21300134: received_1395165127210690_67
+    21300136: received_1395165127210690_68
+    21300138: received_1395165127210690_69
+    21300140: received_1395165127210690_70
+    21300142: received_1395165127210690_71
+    21300144: received_1395165127210690_72
+    21300146: received_1395165127210690_73
+    21300148: received_1395165127210690_74
+    21300150: received_1395165127210690_75
+    21300152: received_1395165127210690_76
+    21300154: received_1395165127210690_77
+    21300156: received_1395165127210690_78
+    21300158: received_1395165127210690_79
+    21300160: received_1395165127210690_80
+    21300162: received_1395165127210690_81
+    21300164: received_1395165127210690_82
+    21300166: received_1395165127210690_83
+    21300168: received_1395165127210690_84
+    21300170: received_1395165127210690_85
+    21300172: received_1395165127210690_86
+    21300174: received_1395165127210690_87
+    21300176: received_1395165127210690_88
+    21300178: received_1395165127210690_89
+    21300180: received_1395165127210690_90
+    21300182: received_1395165127210690_91
+    21300184: received_1395165127210690_92
+    21300186: received_1395165127210690_93
+    21300188: received_1395165127210690_94
+    21300190: received_1395165127210690_95
+    21300192: received_1395165127210690_96
+    21300194: received_1395165127210690_97
+    21300196: received_1395165127210690_98
+    21300198: received_1395165127210690_99
+    21300200: received_1395165127210690_100
+    21300202: received_1395165127210690_101
+    21300204: received_1395165127210690_102
+    21300206: received_1395165127210690_103
+    21300208: received_1395165127210690_104
+    21300210: received_1395165127210690_105
+    21300212: received_1395165127210690_106
+    21300214: received_1395165127210690_107
+    21300216: received_1395165127210690_108
+    21300218: received_1395165127210690_109
+    21300220: received_1395165127210690_110
+    21300222: received_1395165127210690_111
+    21300224: received_1395165127210690_112
+    21300226: received_1395165127210690_113
+    21300228: received_1395165127210690_114
+    21300230: received_1395165127210690_115
+    21300232: received_1395165127210690_116
+    21300234: received_1395165127210690_117
+    21300236: received_1395165127210690_118
+    21300238: received_1395165127210690_119
+    21300240: received_1395165127210690_120
+    21300242: received_1395165127210690_121
+    21300244: received_1395165127210690_122
+    21300246: received_1395165127210690_123
+    21300248: received_1395165127210690_124
+    21300250: received_1395165127210690_125
+    21300252: received_1395165127210690_126
+    21300254: received_1395165127210690_127
+    21300256: received_1395165127210690_128
+    21300258: received_1395165127210690_129
+    21300260: received_1395165127210690_130
+    21300262: received_1395165127210690_131
+    21300264: received_1395165127210690_132
+    21300266: received_1395165127210690_133
+    21300268: received_1395165127210690_134
+    21300270: received_1395165127210690_135
+    21300272: received_1395165127210690_136
+    21300274: received_1395165127210690_137
+    21300276: received_1395165127210690_138
+    21300278: received_1395165127210690_139
+    21300280: received_1395165127210690_140
+    21300282: received_1395165127210690_141
+    21300284: received_1395165127210690_142
+    21300286: received_1395165127210690_143
+    21300288: received_1395165127210690_144
+    21300290: received_1395165127210690_145
+    21300292: received_1395165127210690_146
+    21300294: received_1395165127210690_147
+    21300296: received_1395165127210690_148
+    21300298: received_1395165127210690_149
+    21300300: received_1395165127210690_150
+    21300302: received_1395165127210690_151
+    21300304: received_1395165127210690_152
+    21300306: received_1395165127210690_153
+    21300308: received_1395165127210690_154
+    21300310: received_1395165127210690_155
+    21300312: received_1395165127210690_156
+    21300314: received_1395165127210690_157
+    21300316: received_1395165127210690_158
+    21300318: received_1395165127210690_159
+    21300320: received_1395165127210690_160
+    21300322: received_1395165127210690_161
+    21300324: received_1395165127210690_162
+    21300326: received_1395165127210690_163
+    21300328: received_1395165127210690_164
+    21300330: received_1395165127210690_165
+    21300332: received_1395165127210690_166
+    21300334: received_1395165127210690_167
+    21300336: received_1395165127210690_168
+    21300338: received_1395165127210690_169
+    21300340: received_1395165127210690_170
+    21300342: received_1395165127210690_171
+    21300344: received_1395165127210690_172
+    21300346: received_1395165127210690_173
+    21300348: received_1395165127210690_174
+    21300350: received_1395165127210690_175
+    21300352: received_1395165127210690_176
+    21300354: received_1395165127210690_177
+    21300356: received_1395165127210690_178
+    21300358: received_1395165127210690_179
+    21300360: received_1395165127210690_180
+    21300362: received_1395165127210690_181
+    21300364: received_1395165127210690_182
+    21300366: received_1395165127210690_183
+    21300368: received_1395165127210690_184
+    21300370: received_1395165127210690_185
+    21300372: received_1395165127210690_186
+    21300374: received_1395165127210690_187
+    21300376: received_1395165127210690_188
+    21300378: received_1395165127210690_189
+    21300380: received_1395165127210690_190
+    21300382: received_1395165127210690_191
+    21300384: received_1395165127210690_192
+    21300386: received_1395165127210690_193
+    21300388: received_1395165127210690_194
+    21300390: received_1395165127210690_195
+    21300392: received_1395165127210690_196
+    21300394: received_1395165127210690_197
+    21300396: received_1395165127210690_198
+    21300398: received_1395165127210690_199
+    21300400: received_1395165127210690_200
+    21300402: received_1395165127210690_201
+    21300404: received_1395165127210690_202
+    21300406: received_1395165127210690_203
+    21300408: received_1395165127210690_204
+    21300410: received_1395165127210690_205
+    21300412: received_1395165127210690_206
+    21300414: received_1395165127210690_207
+    21300416: received_1395165127210690_208
+    21300418: received_1395165127210690_209
+    21300420: received_1395165127210690_210
+    21300422: received_1395165127210690_211
+    21300424: received_1395165127210690_212
+    21300426: received_1395165127210690_213
+    21300428: received_1395165127210690_214
+    21300430: received_1395165127210690_215
+    21300432: received_1395165127210690_216
+    21300434: received_1395165127210690_217
+    21300436: received_1395165127210690_218
+    21300438: received_1395165127210690_219
+    21300440: received_1395165127210690_220
+    21300442: received_1395165127210690_221
+    21300444: received_1395165127210690_222
+    21300446: received_1395165127210690_223
+    21300448: received_1395165127210690_224
+    21300450: received_1395165127210690_225
+    21300452: received_1395165127210690_226
+    21300454: received_1395165127210690_227
+    21300456: received_1395165127210690_228
+    21300458: received_1395165127210690_229
+    21300460: received_1395165127210690_230
+    21300462: received_1395165127210690_231
+    21300464: received_1395165127210690_232
+    21300466: received_1395165127210690_233
+    21300468: received_1395165127210690_234
+    21300470: received_1395165127210690_235
+    21300472: received_1395165127210690_236
+    21300474: received_1395165127210690_237
+    21300476: received_1395165127210690_238
+    21300478: received_1395165127210690_239
+    21300480: received_1395165127210690_240
+    21300482: received_1395165127210690_241
+    21300484: received_1395165127210690_242
+    21300486: received_1395165127210690_243
+    21300488: received_1395165127210690_244
+    21300490: received_1395165127210690_245
+    21300492: received_1395165127210690_246
+    21300494: received_1395165127210690_247
+    21300496: received_1395165127210690_248
+    21300498: received_1395165127210690_249
+    21300500: received_1395165127210690_250
+    21300502: received_1395165127210690_251
+    21300504: received_1395165127210690_252
+    21300506: received_1395165127210690_253
+    21300508: received_1395165127210690_254
+    21300510: received_1395165127210690_255
+    21300512: received_1395165127210690_256
+    21300514: received_1395165127210690_257
+    21300516: received_1395165127210690_258
+    21300518: received_1395165127210690_259
+    21300520: received_1395165127210690_260
+    21300522: received_1395165127210690_261
+    21300524: received_1395165127210690_262
+    21300526: received_1395165127210690_263
+    21300528: received_1395165127210690_264
+    21300530: received_1395165127210690_265
+    21300532: received_1395165127210690_266
+    21300534: received_1395165127210690_267
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  - buildTarget: WebGL
+    maxTextureSize: 1024
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: received_1395165127210690_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_31
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_32
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: received_1395165127210690_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
