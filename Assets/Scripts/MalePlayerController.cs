@@ -49,7 +49,7 @@ public class MalePlayerController : MonoBehaviour {
 			maleRigidbody.velocity = new Vector2 (maleRigidbody.velocity.x, 0f);
 		}
 
-		animal.SetFloat ("MoveX", Input.GetAxisRaw ("Horizontal"));
+		anim.SetFloat ("MoveX", Input.GetAxisRaw ("Horizontal"));
 		anim.SetFloat ("MoveY", Input.GetAxisRaw ("Vertical"));
 		anim.SetBool ("PlayerMoving", playerMoving);
 		anim.SetFloat ("LastMoveX", lastMove.x);
