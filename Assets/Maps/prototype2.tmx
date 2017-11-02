@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="tileset-biome" tilewidth="16" tileheight="16" tilecount="9384" columns="136">
+  <image source="../Art/tileset-biome.png" width="2176" height="1104"/>
+  <tile id="3032">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="-0.0434783" width="16" height="16.0435"/>
+   </objectgroup>
+  </tile>
+  <tile id="3033">
+   <objectgroup draworder="index">
+    <object id="1" x="0.0434783" y="-0.0434783" width="15.9565" height="16.0435"/>
+   </objectgroup>
+  </tile>
+  <tile id="3168">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16.087" height="14"/>
+   </objectgroup>
+  </tile>
+  <tile id="3169">
+   <objectgroup draworder="index">
+    <object id="2" x="-0.0434783" y="0.0434783" width="16" height="13.9565"/>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <layer name="Ground" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzTEmRg0BrFo3gUj+JRPIpH8SgexSMGAwCxvpOB
+  </data>
+ </layer>
+ <layer name="Trees" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy7yc3AcAuIbw4QncjDwJDEM3D0KBgFo2AUjIJRMApGwUgDAIsbKkE=
+  </data>
+ </layer>
+</map>
