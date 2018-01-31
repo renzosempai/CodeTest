@@ -1,4 +1,4 @@
-﻿ using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class Menu : MonoBehaviour {
 	public GameObject mainMenuHolder;
 	public GameObject optionsMenuHolder;
+	public GameObject selectCTopicHolder;
 
 	public Slider[] volumeSliders;
 	public Toggle[] resolutionToggles;
@@ -26,14 +27,11 @@ public class Menu : MonoBehaviour {
 	}
 
 	public void Play() {
-		SceneManager.LoadScene ("MalePrototype");
-	}
-
-	public void OptionsMenu() {
+//		SceneManager.LoadScene ("MalePrototype");	
 		mainMenuHolder.SetActive (false);
-		optionsMenuHolder.SetActive (true);
+		selectCTopicHolder.SetActive (true);
 	}
-
+		
 	public void Quit() {
 		Application.Quit ();
 	}
@@ -41,6 +39,12 @@ public class Menu : MonoBehaviour {
 	public void MainMenu() {
 		mainMenuHolder.SetActive (true);
 		optionsMenuHolder.SetActive (false);
+		selectCTopicHolder.SetActive (false);
+	}
+
+	public void OptionsMenu() {
+		mainMenuHolder.SetActive (false);
+		optionsMenuHolder.SetActive (true);
 	}
 
 	public void SetScreenResolution(int i) {
