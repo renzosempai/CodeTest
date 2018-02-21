@@ -12,7 +12,7 @@ public class PauseMenu : MonoBehaviour {
 	public Slider[] volumeSliders;
 	public Toggle[] resolutionToggles;
 	public Toggle fullscreenToggle;
-	public int[] screenWidths;
+	public int[] screenWidths; 
 	int activeScreenResIndex;
 
 	public static bool GameIsPaused = false;
@@ -52,12 +52,7 @@ public class PauseMenu : MonoBehaviour {
 		pauseMenuUI.SetActive (true);
 		Time.timeScale = 0f;
 		GameIsPaused = true;
-	
 	}
-
-//	public void LoadMenu(){
-//		Debug.Log ("Loading Main Menu.....");
-//	}
 
 	public void ExitToMainMenu(){
 		Time.timeScale = 1f;
@@ -100,15 +95,11 @@ public class PauseMenu : MonoBehaviour {
 		PlayerPrefs.Save ();
 	}
 
+	public void SetQuality (int qualityIndex){
+		QualitySettings.SetQualityLevel (qualityIndex);
+	}
+
 	//	public void SetMasterVolume(float value) {
 	//		AudioManager.instance.SetVolume (value, AudioManager.AudioChannel.Master);
-	//	}
-	//
-	//	public void SetMusicVolume(float value) {
-	//		AudioManager.instance.SetVolume (value, AudioManager.AudioChannel.Music);
-	//	}
-	//
-	//	public void SetSFXVolume(float value) {
-	//		AudioManager.instance.SetVolume (value, AudioManager.AudioChannel.SFX);
 	//	}
 }
