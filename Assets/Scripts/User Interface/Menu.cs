@@ -15,7 +15,7 @@ public class Menu : MonoBehaviour {
 	public int[] screenWidths;
 	int activeScreenResIndex;
 
-	void Start(){
+	void Start () {
 		activeScreenResIndex = PlayerPrefs.GetInt ("screen res index");
 		bool isFullscreen = (PlayerPrefs.GetInt ("fullscreen") == 1) ? true : false;
 
@@ -72,16 +72,11 @@ public class Menu : MonoBehaviour {
 		PlayerPrefs.Save ();
 	}
 
+	public void SetQuality (int qualityIndex){
+		QualitySettings.SetQualityLevel (qualityIndex);
+	}
+
 //	public void SetMasterVolume(float value) {
 //		AudioManager.instance.SetVolume (value, AudioManager.AudioChannel.Master);
-//	}
-//
-//	public void SetMusicVolume(float value) {
-//		AudioManager.instance.SetVolume (value, AudioManager.AudioChannel.Music);
-//	}
-//
-//	public void SetSFXVolume(float value) {
-//		AudioManager.instance.SetVolume (value, AudioManager.AudioChannel.SFX);
-//	}
 
 }
