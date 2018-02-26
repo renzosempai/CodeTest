@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="40" tilewidth="16" tileheight="16" nextobjectid="1">
+ <tileset firstgid="1" name="tileset-alistair" tilewidth="16" tileheight="16" tilecount="6006" columns="91">
+  <image source="../Art/tileset-alistair.png" width="1461" height="1056"/>
+ </tileset>
+ <tileset firstgid="6007" name="tileset-biome" tilewidth="16" tileheight="16" tilecount="9384" columns="136">
+  <image source="../Art/tileset-biome.png" width="2176" height="1104"/>
+ </tileset>
+ <tileset firstgid="15391" name="tileset-citrine" tilewidth="16" tileheight="16" tilecount="3888" columns="8">
+  <image source="../Art/tileset-citrine.png" width="128" height="7776"/>
+ </tileset>
+ <layer name="Ground" width="80" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwzENAAAMA6AKm4D6V1QbOyChl1RVVVVVVVVVVVVVVdW3B5obcls=
+  </data>
+ </layer>
+ <layer name="Road" width="80" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2D0OwiAchnGO4Ga1Jnb1a3JSZ67mXRzxY/MOXkkYGiGllX9ZNDy/5L3AExRUKQAAAAAAAOB3TbRsCFVaNoTol4d+eRotG0KruVLrxG3spjQMXGyTa+Ju9Otw/bZ2O/qN4vrd7R6CfkP3y6ywvn2f330d77f07hL6pX3/tS1dP1/sLJba7xk5b7Hz56Of/P710Y9+uWL9/PfMa0G/ISbSr+89k9KvEv4f9u8zwvfzufns21uwhBnh+5l+3X6S+4N+4Q723XdM3KkO+/m/RUodAABjvAFdZCXM
+  </data>
+ </layer>
+ <layer name="Trees" width="80" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt2j1OgkEURuHbAYtQBNEOFIlWoChqp+tR0AX4uzkVXICK7ILT2H9OM5nkPMnJ205uPd1hRI+6btIe0pGbvCM6dpP3gi7d5L2iazd5JUmSJEmSJElSuTZqEZvUpC1qUbuW+1XluOFWtzSlGd3Rvfer7I1bvdMHzWlBn96vsl49Yo/2qU8HNKjnflU5HrjVIz3RM73Qq/er7ItbfdMPLemXVt6vspNGxJhO6YwmdN7I/SpJUi7bw4gO7dCu++/9+0eZ+x9xqZv7/3Dpm/v/cOmb+/9w6bsG/viElQ==
+  </data>
+ </layer>
+ <layer name="Infrastructures" width="80" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAAAAAAAAAAAAB4NjIAAAE=
+  </data>
+ </layer>
+</map>
