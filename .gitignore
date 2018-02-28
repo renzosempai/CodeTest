@@ -32,3 +32,10 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/Maps/prototype3.tmx.meta
+Assets/Art/tileset-pokemon_dawn.png.meta
+Assets/Art/tileset-citrine.png.meta
+Assets/Scripts/PauseMenu.cs
+Assets/Art/tileset-advance.png.meta
+*.meta
+Assets/Scripts/PauseMenu.cs

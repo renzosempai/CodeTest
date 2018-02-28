@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class PauseMenu : MonoBehaviour {
 	public GameObject pauseMenuUI;
 	public GameObject optionsMenuHolder;
-
+	public GameObject ConfirmQuitUI;
 
 	public Slider[] volumeSliders;
 	public Toggle[] resolutionToggles;
@@ -42,34 +42,51 @@ public class PauseMenu : MonoBehaviour {
 		}
 	}
 
-	public void Resume(){
-		pauseMenuUI.SetActive (false);
-		Time.timeScale = 1f;
-		GameIsPaused = false;
-	}
+//		Pause and Options
+		public void Resume(){
+			pauseMenuUI.SetActive (false);
+			Time.timeScale = 1f;
+			GameIsPaused = false;
+		}
 
-	public void Pause(){
-		pauseMenuUI.SetActive (true);
-		Time.timeScale = 0f;
-		GameIsPaused = true;
-	}
+		public void Pause(){
+			pauseMenuUI.SetActive (true);
+			Time.timeScale = 0f;
+			GameIsPaused = true;
+		}
 
-	public void ExitToMainMenu(){
-		Time.timeScale = 1f;
-		SceneManager.LoadScene ("Start Menu");
-	}
+		public void OptionstoPause(){
+			pauseMenuUI.SetActive (true);
+			optionsMenuHolder.SetActive (false);
+			Time.timeScale = 0f;
+			GameIsPaused = true;
+		}
 
-	public void OptionstoPause(){
-		pauseMenuUI.SetActive (true);
-		optionsMenuHolder.SetActive (false);
-		Time.timeScale = 0f;
-		GameIsPaused = true;
-	}
+		public void OptionsMenu() {
+			pauseMenuUI.SetActive (false);
+			optionsMenuHolder.SetActive (true);
+		}
 
-	public void OptionsMenu() {
-		pauseMenuUI.SetActive (false);
-		optionsMenuHolder.SetActive (true);
-	}
+//		Confirming Quit
+		public void ExitToMainMenu(){
+			ConfirmQuitUI.SetActive (true);
+			pauseMenuUI.SetActive (false);
+			Time.timeScale = 0f;
+			GameIsPaused = true;
+		}
+
+		public void ConfirmQuitYes(){
+			Time.timeScale = 1f;
+			SceneManager.LoadScene ("Start Menu");
+			Debug.Log ("Quitting......");
+		}
+
+		public void ConfirmQuitNo(){
+			pauseMenuUI.SetActive (true);
+			Time.timeScale = 0f;
+			GameIsPaused = true;
+			ConfirmQuitUI.SetActive (false);
+		}
 
 	public void SetScreenResolution(int i) {
 		if (resolutionToggles [i].isOn) {
@@ -98,6 +115,8 @@ public class PauseMenu : MonoBehaviour {
 	public void SetQuality (int qualityIndex){
 		QualitySettings.SetQualityLevel (qualityIndex);
 	}
+
+
 
 	//	public void SetMasterVolume(float value) {
 	//		AudioManager.instance.SetVolume (value, AudioManager.AudioChannel.Master);
