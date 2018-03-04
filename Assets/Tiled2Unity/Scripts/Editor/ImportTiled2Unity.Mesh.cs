@@ -12,8 +12,6 @@ using System.Xml.Linq;
 using UnityEditor;
 using UnityEngine;
 
-using Path = System.IO.Path;
-
 namespace Tiled2Unity
 {
     // Handles a Mesh being imported.
@@ -23,7 +21,7 @@ namespace Tiled2Unity
         public void MeshImported(string objPath)
         {
             // Find the import behaviour that was waiting on this mesh to be imported
-            string asset = Path.GetFileName(objPath);
+            string asset = System.IO.Path.GetFileName(objPath);
             ImportBehaviour importComponent = ImportBehaviour.FindImportBehavior_ByWaitingMesh(asset);
             if (importComponent != null)
             {
@@ -36,7 +34,7 @@ namespace Tiled2Unity
                 // Are we done importing all meshes? If so then start importing prefabs.
                 if (importComponent.IsMeshImportingCompleted())
                 {
-                    ImportAllPrefabs(importComponent);
+                    ImportAllPrefabs(importComponent, objPath);
                 }
             }
         }
@@ -60,7 +58,7 @@ namespace Tiled2Unity
                 string raw = ImportUtils.Base64ToString(data);
 
                 // Save and import the asset
-                string pathToMesh = GetMeshAssetPath(importComponent.MapName, Path.GetFileNameWithoutExtension(file));
+                string pathToMesh = GetMeshAssetPath(file);
                 ImportUtils.ReadyToWrite(pathToMesh);
                 File.WriteAllText(pathToMesh, raw, Encoding.UTF8);
                 importComponent.ImportTiled2UnityAsset(pathToMesh);
@@ -69,7 +67,7 @@ namespace Tiled2Unity
             // If we have no meshes to import then go to next stage
             if (importComponent.ImportWait_Meshes.Count() == 0)
             {
-                ImportAllPrefabs(importComponent);
+                ImportAllPrefabs(importComponent, null);
             }
         }
 

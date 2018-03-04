@@ -1,10 +1,12 @@
-﻿Shader "Tiled2Unity/Default"
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Tiled2Unity/Default"
 {
     Properties
     {
         [PerRendererData] _MainTex ("Tiled Texture", 2D) = "white" {}
         _Color ("Tint", Color) = (1,1,1,1)
-        [MaterialToggle] PixelSnap ("Pixel snap", Float) = 0
+        [MaterialToggle] PixelSnap ("Pixel snap", Float) = 1
     }
 
     SubShader
@@ -30,7 +32,6 @@
             #pragma fragment frag
             #pragma multi_compile DUMMY PIXELSNAP_ON
             #include "UnityCG.cginc"
-            #include "Tiled2Unity.cginc"
 
             struct appdata_t
             {

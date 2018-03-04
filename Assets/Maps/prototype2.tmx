@@ -1,113 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="16" tileheight="16" nextobjectid="1">
- <tileset firstgid="1" name="tileset-biome" tilewidth="16" tileheight="16" tilecount="9384" columns="136">
-  <image source="../Art/tileset-biome.png" width="2176" height="1104"/>
-  <tile id="245">
-   <objectgroup draworder="index">
-    <object id="6" x="0.96875" y="0" width="14.9688" height="15.9688"/>
-   </objectgroup>
-  </tile>
-  <tile id="246">
-   <objectgroup draworder="index">
-    <object id="1" x="-0.0625" y="-0.03125" width="15" height="16.6563"/>
-   </objectgroup>
-  </tile>
-  <tile id="251">
-   <objectgroup draworder="index">
-    <object id="1" x="2" y="3.96875" width="13.9688" height="12"/>
-   </objectgroup>
-  </tile>
-  <tile id="252">
-   <objectgroup draworder="index">
-    <object id="2" x="0" y="4.03125" width="14" height="11.9375"/>
-   </objectgroup>
-  </tile>
-  <tile id="381">
-   <objectgroup draworder="index">
-    <object id="3" x="1.9375" y="-0.0625" width="14.0625" height="13.0625"/>
-   </objectgroup>
-  </tile>
-  <tile id="382">
-   <objectgroup draworder="index">
-    <object id="1" x="-0.03125" y="-0.03125" width="14" height="12.9688"/>
-   </objectgroup>
-  </tile>
-  <tile id="2149">
-   <objectgroup draworder="index">
-    <object id="4" x="1" y="-0.03125" width="14.9375" height="16"/>
-   </objectgroup>
-  </tile>
-  <tile id="2150">
-   <objectgroup draworder="index">
-    <object id="1" x="-0.0625" y="-0.03125" width="15.0625" height="15.9375"/>
-   </objectgroup>
-  </tile>
-  <tile id="2285">
-   <objectgroup draworder="index">
-    <object id="1" x="2" y="0" width="14" height="12.9063"/>
-   </objectgroup>
-  </tile>
-  <tile id="2286">
-   <objectgroup draworder="index">
-    <object id="1" x="0" y="0.03125" width="13.9688" height="12.9688"/>
-   </objectgroup>
-  </tile>
-  <tile id="2557">
-   <objectgroup draworder="index">
-    <object id="1" x="2.03125" y="3.9375" width="14" height="11.9688"/>
-   </objectgroup>
-  </tile>
-  <tile id="2558">
-   <objectgroup draworder="index">
-    <object id="1" x="-0.03125" y="4" width="13.9688" height="12.0313"/>
-   </objectgroup>
-  </tile>
-  <tile id="2693">
-   <objectgroup draworder="index">
-    <object id="1" x="1" y="0" width="14.9688" height="15.9375"/>
-   </objectgroup>
-  </tile>
-  <tile id="2694">
-   <objectgroup draworder="index">
-    <object id="1" x="0" y="-0.125" width="14.9688" height="16.0313"/>
-   </objectgroup>
-  </tile>
-  <tile id="3032">
-   <objectgroup draworder="index">
-    <object id="1" x="0" y="-0.0434783" width="16" height="16.0435"/>
-   </objectgroup>
-  </tile>
-  <tile id="3033">
-   <objectgroup draworder="index">
-    <object id="1" x="0.0434783" y="-0.0434783" width="15.9565" height="16.0435"/>
-   </objectgroup>
-  </tile>
-  <tile id="3168">
-   <objectgroup draworder="index">
-    <object id="1" x="0" y="0" width="16.087" height="14"/>
-   </objectgroup>
-  </tile>
-  <tile id="3169">
-   <objectgroup draworder="index">
-    <object id="2" x="-0.0434783" y="0.0434783" width="16" height="13.9565"/>
-   </objectgroup>
-  </tile>
- </tileset>
- <tileset firstgid="9385" name="tileset-alistair" tilewidth="16" tileheight="16" tilecount="6006" columns="91">
+ <properties>
+  <property name="unity:scale" value="0.0625"/>
+ </properties>
+ <tileset firstgid="1" name="tileset-alistair" tilewidth="16" tileheight="16" tilecount="6006" columns="91">
   <image source="../Art/tileset-alistair.png" width="1461" height="1056"/>
-  <tile id="837">
+  <tile id="273">
    <objectgroup draworder="index">
-    <object id="1" x="3" y="9" width="13" height="7.65625"/>
+    <object id="2" x="6.97548" y="10.0246" width="2.0467" height="4.92878"/>
+    <object id="10" x="8.86957" y="9.95652">
+     <polyline points="0,0 4.17391,0.0869565 4.17391,-0.956522 5.13043,-1.04348 5.13043,-2 6.04348,-1.91304 6.13043,-3.95652 6.08696,-6.78261 4.04348,-6.91304 4,-8 0.130435,-7.86957 0.130435,-8.86957 -2,-8.95652 -1.86957,-8.04348 -5.95652,-7.95652 -5.86957,-7.04348 -7.86957,-6.86957 -7.91304,-2 -6.95652,-2 -6.95652,-0.956522 -4.95652,-0.956522 -4.82609,0 -0.0434783,0"/>
+    </object>
    </objectgroup>
+  </tile>
+  <tile id="274">
+   <objectgroup draworder="index">
+    <object id="2" x="5" y="15" width="7.04348" height="1"/>
+    <object id="3" x="5.95652" y="13" width="5.08696" height="1.95652"/>
+    <object id="5" x="6.95652" y="11.9565" width="3.04348" height="1.04348"/>
+   </objectgroup>
+  </tile>
+  <tile id="365">
+   <objectgroup draworder="index">
+    <object id="1" x="7.08696" y="9.95652" width="1.91304" height="4"/>
+    <object id="2" x="4.95652" y="-0.0869565" width="7.04348" height="9.08696"/>
+   </objectgroup>
+  </tile>
+  <tile id="837">
+   <objectgroup draworder="index"/>
   </tile>
   <tile id="838">
-   <objectgroup draworder="index">
-    <object id="1" x="0.0625" y="3" width="12.9375" height="13.0625"/>
-   </objectgroup>
+   <objectgroup draworder="index"/>
   </tile>
   <tile id="926">
    <objectgroup draworder="index">
-    <object id="1" x="2.96875" y="4.9375" width="13.0313" height="11.125"/>
+    <object id="3" x="16.0638" y="9.96512">
+     <polyline points="0,0 -2.15247,0.0398605 -2.07275,-3.94619 -8.09168,-3.94619 -8.1714,4.98256 -11.0812,5.02242 -11.0812,5.97907 -0.159442,6.01893 -0.0398605,-0.199302"/>
+    </object>
    </objectgroup>
   </tile>
   <tile id="927">
@@ -122,27 +51,29 @@
   </tile>
   <tile id="929">
    <objectgroup draworder="index">
-    <object id="1" x="-0.03125" y="-0.03125" width="13.0625" height="16.0625"/>
+    <object id="3" x="0" y="0" width="11.998" height="16.0239"/>
    </objectgroup>
   </tile>
   <tile id="1017">
    <objectgroup draworder="index">
-    <object id="1" x="0.90625" y="-0.09375" width="15.0625" height="16.1875"/>
+    <object id="2" x="2.03288" y="0.079721" width="13.991" height="15.8246"/>
    </objectgroup>
   </tile>
   <tile id="1020">
    <objectgroup draworder="index">
-    <object id="1" x="-0.03125" y="-0.0625" width="12.9688" height="16.0938"/>
+    <object id="2" x="0.0398605" y="-0.079721" width="11.9581" height="16.0239"/>
    </objectgroup>
   </tile>
   <tile id="1108">
    <objectgroup draworder="index">
-    <object id="4" x="0.9375" y="-0.03125" width="15.0313" height="16.0625"/>
+    <object id="5" x="1.9133" y="0" width="14.1106" height="15.9841"/>
    </objectgroup>
   </tile>
   <tile id="1111">
    <objectgroup draworder="index">
-    <object id="1" x="-0.0625" y="0.03125" width="13.0938" height="15.9688"/>
+    <object id="3" x="11.8784" y="-0.0398605">
+     <polyline points="0,0 0.0398605,0.956652 -0.956652,0.956652 -0.956652,15.9841 -11.9581,15.9841 -11.8386,0.0398605 0.0398605,-0.0398605"/>
+    </object>
    </objectgroup>
   </tile>
   <tile id="1199">
@@ -152,12 +83,14 @@
   </tile>
   <tile id="1202">
    <objectgroup draworder="index">
-    <object id="1" x="-0.03125" y="0" width="12.0625" height="16"/>
+    <object id="2" x="10.8819" y="-0.079721">
+     <polyline points="0,0 0.079721,8.13154 -2.94968,8.09168 -2.94968,15.9442 -10.9218,16.0239 -10.9218,0.079721 -0.079721,0"/>
+    </object>
    </objectgroup>
   </tile>
   <tile id="1290">
    <objectgroup draworder="index">
-    <object id="1" x="4.96875" y="0" width="11.0313" height="15.0938"/>
+    <object id="3" x="6.05879" y="-0.0398605" width="9.8854" height="13.9512"/>
    </objectgroup>
   </tile>
   <tile id="1291">
@@ -168,6 +101,11 @@
   <tile id="1292">
    <objectgroup draworder="index">
     <object id="5" x="0.0625" y="-0.0625" width="15.9375" height="13.9688"/>
+   </objectgroup>
+  </tile>
+  <tile id="1293">
+   <objectgroup draworder="index">
+    <object id="1" x="-0.0398605" y="0.079721" width="8.13154" height="13.9113"/>
    </objectgroup>
   </tile>
   <tile id="3599">
@@ -296,24 +234,125 @@
    </objectgroup>
   </tile>
  </tileset>
+ <tileset firstgid="6007" name="tileset-biome" tilewidth="16" tileheight="16" tilecount="9384" columns="136">
+  <image source="../Art/tileset-biome.png" width="2176" height="1104"/>
+  <tile id="245">
+   <objectgroup draworder="index">
+    <object id="6" x="0.96875" y="0" width="14.9688" height="15.9688"/>
+   </objectgroup>
+  </tile>
+  <tile id="246">
+   <objectgroup draworder="index">
+    <object id="1" x="-0.0625" y="-0.03125" width="15" height="16.6563"/>
+   </objectgroup>
+  </tile>
+  <tile id="251">
+   <objectgroup draworder="index">
+    <object id="1" x="2" y="3.96875" width="13.9688" height="12"/>
+   </objectgroup>
+  </tile>
+  <tile id="252">
+   <objectgroup draworder="index">
+    <object id="2" x="0" y="4.03125" width="14" height="11.9375"/>
+   </objectgroup>
+  </tile>
+  <tile id="381">
+   <objectgroup draworder="index">
+    <object id="3" x="1.9375" y="-0.0625" width="14.0625" height="13.0625"/>
+   </objectgroup>
+  </tile>
+  <tile id="382">
+   <objectgroup draworder="index">
+    <object id="1" x="-0.03125" y="-0.03125" width="14" height="12.9688"/>
+   </objectgroup>
+  </tile>
+  <tile id="1416">
+   <objectgroup draworder="index">
+    <object id="19" x="0.980782" y="11.7149">
+     <polyline points="0,0 0.0544879,-3.70518 1.03527,-3.70518 0.980782,-6.7565 1.90708,-6.64752 2.07054,-8.71806 2.94235,-8.66358 2.99683,-9.64436 8.00972,-9.69885 8.00972,-8.82704 9.9168,-8.77255 10.0258,-6.81099 11.0066,-6.64752 11.0066,-3.81415 12.1508,-3.75966 12.0963,-1.85259 12.0963,0.108976 10.9521,0.272439 10.8431,1.47117 10.1347,1.25322 10.0258,-0.762831 8.9905,-0.653855 8.9905,1.03527 7.95523,1.41669 7.95523,2.234 5.99367,2.50644 6.04816,0.544879 5.01289,0.326927 5.12186,2.07054 3.05132,2.234 2.88786,1.3622 1.19873,1.3622 0.871806,0.435903 0.0544879,0.108976"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="2149">
+   <objectgroup draworder="index">
+    <object id="4" x="1" y="-0.03125" width="14.9375" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="2150">
+   <objectgroup draworder="index">
+    <object id="1" x="-0.0625" y="-0.03125" width="15.0625" height="15.9375"/>
+   </objectgroup>
+  </tile>
+  <tile id="2285">
+   <objectgroup draworder="index">
+    <object id="1" x="2" y="0" width="14" height="12.9063"/>
+   </objectgroup>
+  </tile>
+  <tile id="2286">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0.03125" width="13.9688" height="12.9688"/>
+   </objectgroup>
+  </tile>
+  <tile id="2557">
+   <objectgroup draworder="index"/>
+  </tile>
+  <tile id="2558">
+   <objectgroup draworder="index"/>
+  </tile>
+  <tile id="2693">
+   <objectgroup draworder="index">
+    <object id="1" x="1" y="0" width="14.9688" height="15.9375"/>
+   </objectgroup>
+  </tile>
+  <tile id="2694">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="-0.125" width="14.9688" height="16.0313"/>
+   </objectgroup>
+  </tile>
+  <tile id="3032">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="-0.0434783" width="16" height="16.0435"/>
+   </objectgroup>
+  </tile>
+  <tile id="3033">
+   <objectgroup draworder="index">
+    <object id="1" x="0.0434783" y="-0.0434783" width="15.9565" height="16.0435"/>
+   </objectgroup>
+  </tile>
+  <tile id="3168">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="16.087" height="14"/>
+   </objectgroup>
+  </tile>
+  <tile id="3169">
+   <objectgroup draworder="index">
+    <object id="2" x="-0.0434783" y="0.0434783" width="16" height="13.9565"/>
+   </objectgroup>
+  </tile>
+ </tileset>
  <layer name="Ground" width="32" height="20">
   <data encoding="base64" compression="zlib">
-   eJzTEmRg0BrFo3gUj+JRPIpH8SgmEW9ggeCBdscoJh0DAFPKlHM=
+   eJxboMHAsGAUj+JRPIpH8SgexaOYRBwgC8ED7Y5RTDoGAOZ081o=
   </data>
  </layer>
  <layer name="Road" width="32" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwk2sqPiTez0td+SAxVbcQys/TYc9A2TgxzY8WEqh8lCZghmZ0LQE4FYhBm7egsq28/GhHDDRCQ2Pe2HYWR3iNHIfqCeA8h6ke1Hdgcx9mNLk4TwEaj9hPSCwh/drwvQxGiJ0e2it/2gMLBG4gPz3QF0MSD7AK58ClR7ABnjUocLE+NGStI/KJ2xI6W5iWh5gJb2I6d1dix5D8QnJowOUSH/j4LBCQCFsGn2
+   eJxjYBgFAwnU5VGxhjx97V8vj4o3DLD9m+TpGybmCtixpQJ1w0RcGoJrJRE0uxQDA5MsJgaBdVSOkxpJhBtA9sLYMPuQAUiMFvbDMLI7sIFv0pTbD9RzAFkvsv3I7iDGfmxpkhC2UoDYT0gvMfbTEg+0/TB7QPH0TRq7/RuBcYkrnwLD8AAyxqUOF96II443ItlPSfoHpbNapDQHSvPIeYCYMCLXfuS0Xosl74H4tLSfGEBMHFko0M7+kQ4AwHCTdA==
   </data>
  </layer>
- <layer name="Trees" width="32" height="20">
+ <layer name="Trees/Rocks" width="32" height="20">
   <data encoding="base64" compression="zlib">
-   eJzt1jkOgCAQheFHxWKit9RbaONyS72Bdti40RPcwtLMn5CvmISEqdAAVnN0ImsGNMx25MDEw+uqFEAlwutqNrNF2MZ6f6y9fM21l79SFEVR9x0SOKV/39YrYFD+3czdO57NM6DI/Nuav07H0nkBJSC3vQ==
+   eJzLkWBgyAXinAGivwDxVyx0iDwDQ6g87Wlc4A5Q7q487WlcIEWBgSFVAZOml//pFS6kAlzhQi49GMF/mYF2wSgYBQMDRtP+KMAG/igyMPxVpD5NLGhRYmBoVaI+/QvY1vktMXA0AKjksaE=
   </data>
  </layer>
- <layer name="Objects" width="32" height="20">
+ <layer name="Infrastructures" width="32" height="20">
   <data encoding="base64" compression="zlib">
-   eJztzVcNwmAYheHPA1MA0Pa2rQeGAkaYApgCmEoYChhhCmBKAQWMFwM05E96AT3Jc3eSV8TbL++qidw097txXSSBJFL652/eFCmgiBLKqJhq/SHNEcaYOPSXtFZYY4Mtdor9O80Hnu+28fnrs0T8CCCIEMKWWj9NM4Mscg79Kq0a6migiZZif0pzhjkWDv09rQOOOOGMi2L/m0VskShi0KDDsN3rt2l10EUPfQxc7Hvz5u0/9wIuDisK
+   eJzt08kJwkAYhuFfkpzUCdiBW0rRClx6UIMFuFYStQKXHlywANdKXMAX9OohBGcOzgfPZRh45zIidrmU6Rf8bhVHpOro70Y0J5hiZqB/o3nHA08D/ZorUkcDTVd/f05zgSVWBvppTySDLJT3/V5LibTRQajeZ12VrB3G+M9rWhtssft09wn7cZb3RQooooQyAl9fv0erjwGGGGGssX+gdcQJZ1xw1di3s/vnvQAB2xyu
+  </data>
+ </layer>
+ <layer name="Foreground" width="32" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDBTYysvAsA2ItwPxDiDeyUtf+wX4GBgEgVgIiIWBWISPcjOFGcnXmw+0v4AKbiAXnALafXoA7R8Fo2AwgiIJBoZiCerTAw2GijtpBQCokRiF
   </data>
  </layer>
 </map>
