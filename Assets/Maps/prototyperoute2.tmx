@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="tileset-alistair" tilewidth="16" tileheight="16" tilecount="6006" columns="91">
+  <image source="../Art/tileset-alistair.png" width="1461" height="1056"/>
+ </tileset>
+ <tileset firstgid="6007" name="tileset-biome" tilewidth="16" tileheight="16" tilecount="9384" columns="136">
+  <image source="../Art/tileset-biome.png" width="2176" height="1104"/>
+ </tileset>
+ <layer name="Ground" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzdmV1u00AQx30CXvpCSFpbrtT2KX1ruQk34QacgjskvCF6AR4BibMg8YAgq2TU4e/Z+VhP0kKkv+TYu2v/PB+7Oz5bdt3Dedf9XnXdi4u9Nn3Xvb+wdT/4VNr+WO5l9fOMzZ/hdphKe+azA29RhPfDrs27c5/KeMRr9SttPW003i8LWRqv9b7omX6tbCGv1VZrU+Ol/zVWi7c2nsR7tTu+FrQedEl9tgfh+Zve5r0H23L/j/IiM+e1/J/4+PG64jda/Gi8dL1cK2zYPuLPt5W8wW3i4UVl83K2Oby1eKL7WrwZ4j4u5edyzK993fF9W0zbW7xaLt44bJvJi7FVs7kmjZe3k3JL5Hmj/ivx4vxr8Urzdev8G+FsiVeUxKbx8mt3LOdwXlImL2em/29exbQe5vFyZfNaa8soKwnt5eVFIa/kz9aayLMuwpweEfLydacWv1LO8cSvxvFzuRfdvxzz89m8GJOUNy97XdF8Jb0rLlofS9du2Hto4aV9lba2vFTGbeFF4fpr7PW19hz70rskbsmPNbtm8ErMGq/Hvt8Xj8djL/PyPRbxfhymKj9uX2KeO/969tgZ9h1ZzLweprwjcKM/Z/F65LWvx58LK+3L0L6cOYP388u9Wngz4hdrDFeHsSR/9vDW5t/nYl+sMRCr1Z/ngn+VdxPgLbYdk+2r+XoG79jHeHFeyubl3Ke0r2bTp/Tn7HyF42hrSK4Ir3d9cSz78vXq1sl3DF5rD1irPbUwU52jtY4U9Wdk9XxnyKzreeM3ixe5eUzRHhD3hFTX+594C1ftO0MWK+m6/zvnRsRZ367m2VfqN854Nkst47byEjPnvXPkLZL3Wyqvp+K3r+h9kLdl/4vxy+s8Us1n2z/Oxxjr2J7PYfitT6sx4X34eaxNRtcb0e/A9BzePtTv0zDljd4ng5fi2Kpv4dzraU+S6rOR3Mbvn8XrWWe15C6tJt3Sd078ZslbQ4hyS9dPUc+xWJ+K91j7oyzeuf7xHHhPrT8WTVjt
+  </data>
+ </layer>
+ <layer name="Trees" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmEFOwzAQRYdNgR3ZQEJoRSLWSKhZwSHgGj0BQhwAsWlhyXXgRJwAbCQriVWSccfTjC0/aZRESlp7vj3f9nMBf6znALc5wF0O4tFt3ah4U/E+d/s2K9v7T9XXr4H+ztRvH6o4UnHs+D8+OV0AnKjIVBQLt28/yvF3DJS8+oTSjm+H8avzeqYi3yGvPqHo+1TwtIkTir4H5zxt4sRFX7vmvAbYXxd97XczZL0yOZKAi752zcHUZyl12Ud7Voj6rOeAyWfo/ovxI5PPVSlDZ4q+GD/qzgGq/3brJfZqjyXKOmDfftTVBnv1OZb27UfbxsrY1edaDutHseCyX8Ay64y/Kev4NjB+tAtS9o42Lvsjm//6pOeotDWKgbI/GuqTzsV9DfBQy9KX4kdDPihVXy4/0rkw+k55NmDD5UdS9eXwI41UfSn1eQip+nKdX0k527MJ8fyKspaJ/fzKJsT9AmWucNVnqVQXU7cgbK4v+5FIJBISSTVKHo9V/7latvdXS4iOn2r8nZh4qfvPN0173zQQHb+YXWV5
+  </data>
+ </layer>
+ <layer name="Rock Formation" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztWUuO2zAM1THsQYHEPkG76LJp0nUnTT/LHrA9QI8wznRmO0foPVoZLetn5kmibOWDYAgQyMei+PQokpKdc+73CzeSbe3ch4K6q8vaRntMQnN0VXzctckz3kG+LZz7vjidL6eQGN6XS+deLW12Vt7OW9C113YxqEi7iI9jui4Yg6XiubfzVP/Vvf98D3Y1Rj1uT3Tj9V11aKuEn6XsoL/3Bt5Q99WwVr3+9PqgbFl4xnhhz5fGi7ygstqwJzjZd2sNEj/EBxYXU/H2Mcr2HvLC6mVXDXUwhlGrNaY78KEkXhnLOI3x0f3zI7fnsHCLPoXWaGu0E7ONnKa42Gb4PtUnljNLSIijY+JJiXDQYy6N99Lkth5zcM51P4VI/uy5DfUtqzNxbumrcvurVO/Sx/e5zgsh3+bUolA+wfpkxcv4+LGcDPc/XrG7jtTjqXmH9XxWvIyPN433txme2TT2+OsAq/gyl9+Yz5Kv5+C9a8bY+mce/G+PBtxdddgbsH17bn4xrm9bv2fa4ZmP/vMnr5+9fmnjfmq8IV5L4O3HS33Kxas5QV+29XiOXLy6h87By/ILOzdY8fZYvt4c4r1rxvE3B+8cftnasXNDTj3qn9X9C86xg/5ml+jnQnh1X5qDN3TGmopXOGY29Tk75adeO4yLnPws87LcxPrK3H4j5xwX61+1f4hX5+jUeQvvDtjcem9bJXYPlSshvIzbVDynzrz6nG6VY+LVcaP5TtVyvaeYSv6KyabhfUCurNTYVG7W+9kS06k7NNGYj+/rQxu6r7KI+KLvJFndRb6xBlh51vctYl9iJzWe2cjteTBeY7ymlM2L597csSG8rPeZImiz1HtBa81I3XfE9tiUmNa+Xdp9i6XfuyZBvHjumcvxpQr2j6zfu8Y7z183Ze79jy2s18iJvZz7w1OppfaG8gviSY1P1TVUts9jGrqvE7W+B8b3Cgwv4rGuF1O9FjLudWQMYpDzWei+jr0HDnGvfcL/cT1y8Kb4i51jEQPGF8uDofoX+j82n9Y/acutBQ==
+  </data>
+ </layer>
+</map>
