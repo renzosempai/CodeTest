@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="40" height="20" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="tileset-biome" tilewidth="16" tileheight="16" tilecount="9384" columns="136">
+  <image source="../Art/tileset-biome.png" width="2176" height="1104"/>
+ </tileset>
+ <tileset firstgid="9385" name="tileset-pokemon_dawn" tilewidth="16" tileheight="16" tilecount="14758" columns="94">
+  <image source="../Art/tileset-pokemon_dawn.png" width="1504" height="2519"/>
+ </tileset>
+ <tileset firstgid="24143" name="tileset-biome" tilewidth="16" tileheight="16" tilecount="9384" columns="136">
+  <image source="../Art/tileset-biome.png" width="2176" height="1104"/>
+ </tileset>
+ <layer name="Ground" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyT02ZgkKMRPqLFwHAUBz6mhV8epoZWbgNhJSBWxoFVCMjD1NDDfWpA3IiGm4C4AYs4CKvSyX0w+5vI9Bet3XeEzHRErr/IjV9Sw4Fcf9HLfdSIX4sEBgbLBOLtqaez+wZ7+BGD6ZF/9wPT6AE0fFCLsBwI0yP/ymIRk0eSc+dAxfJI6ogJB0J14EC7j1AdONDuw1bHkVK/VQNxDRquJUKO1HRObv6gBNPafchp97gWRM8JtDSMLo7croPJ0cp9hNpnxLbryHXfCQL5F1f7DB/G1q4jtXxG1k/L9EcNDAC7tydo
+  </data>
+ </layer>
+ <layer name="Grass" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwrYmJgKALiwQqKRt1HERgq7gNhj0T62w+yE5+9yO4bCECs+4gxAxseDGCwumu4gs5UCB6sgJruo0X+pZX7qOVGWrqPGm4czu5DL7sGe/zCAL3rt5FUBo0C3AAAneUt1w==
+  </data>
+ </layer>
+ <layer name="Trees" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJy7x8DAcJ9h8II0RgaGdMaBs18nnoFBNx63/Dug294PoPu2AN22FY/7BhrYJDAw2CbQ105CcUYumKvKwDAPiOerUmYONePsHgP18y814wxX/oXFEbk0tUAc0G3xWNwHiyNyaWoBXOEHiyNyaWoBfOXfLRXq2UMLYEFhPqY1GOjw0yGQjgc6/LYQcN9Ahx8or+Ernwci/NDLTwt2BgZLdvq7AxdALz8PAN12cBC5D7389OBgYPDkGCjXEAYXgG67OIjdBwCVy0oz
+  </data>
+ </layer>
+ <layer name="Rock Formation" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzNluERgjAMhTsB5xa2xWnELUS2UDZQx0DmUKdRftsczREKLVWE8u5yV2kjH+GllLFG63h4TLWXzVjE7bGw5IwR5Tiq8UPd/ynr8ckRsAZ47rLOySfiA44Lr+PKu8yuPJNpCj6qSDb3dtUO64dMZ/18eQ9fIRi7kShFd45eG+Kj/jJF5zZx/Rv4Vpact2KueJuDrq30+7Llm0rVuoNHgA+wxrkHH74XWDeGz1fmc2SO/w/B56tC+wp9Axwv3syH5sO60fptFXOiYyeWx4eivbYkPtiLzH5z+XduPuq/0AKuQvusrz9CC/giw2dL5EPPZUb/Jl9826biSzUXfqPpOQQUqneRD9W3L6MnQym17CG263PLdRbykXk2+2eU4ne+D0BifRk=
+  </data>
+ </layer>
+ <layer name="Fences" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAdeKxPGX6qT0PHUQE4Gwy0C/CDUfdRBkbdRxkYdR9lgBj3ndVjYDhHAj6vR1/3aZNYhutSscwfdR/twaj7KAOdQPu60OxEzq/IAKSue5C3iUbByAWktu8XAss/ALP4OwE=
+  </data>
+ </layer>
+ <layer name="Structures" width="40" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztzk0OwUAYh/H3JBTpqiuLNqazdhROQcsJHMJFaLkELSdwB4+YjY+NRLyRvP/kl0lmFvOI2Gw2m+2fN0lFpunr/caJbFGhdr/vuq2iq8YO+6fGTi7SRYRertMXZfyNPgbZ49uMpjkKlEp9BU0lFliGvmFyPw80HdGgVepraGpxwjn0rULfyIs45PBep+/dLol2gc32va1jkXGsXfH5rgntH1A=
+  </data>
+ </layer>
+</map>

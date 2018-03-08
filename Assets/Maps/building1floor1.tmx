@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="tileset-pokemon_dawn" tilewidth="16" tileheight="16" tilecount="14758" columns="94">
+  <image source="../Art/tileset-pokemon_dawn.png" width="1504" height="2519"/>
+ </tileset>
+ <layer name="Floor" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAtOKxFmf42YQaGdirhDiB+AsRPqYSfjZo3at6oeaPmDSHznEQYGJyphF2AGADbCEnR
+  </data>
+ </layer>
+ <layer name="Walls" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJz7osDA8JVK+BsQBykyMAQj4cNaqHxScAgQbwBiaoFNo+aNmjdq3qh5Q8i8HCUGhlwq4TwgPgXEp6mEzwAxAONGVx4=
+  </data>
+ </layer>
+</map>
