@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="18" height="15" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+ <tileset firstgid="1" name="tileset-pokemon_dawn" tilewidth="16" tileheight="16" tilecount="14758" columns="94">
+  <image source="../Art/tileset-pokemon_dawn.png" width="1504" height="2519"/>
+ </tileset>
+ <tileset firstgid="14759" name="tileset-alistair" tilewidth="16" tileheight="16" tilecount="6006" columns="91">
+  <image source="../Art/tileset-alistair.png" width="1461" height="1056"/>
+ </tileset>
+ <tileset firstgid="20765" name="tileset-pokemon_dawn" tilewidth="16" tileheight="16" tilecount="14758" columns="94">
+  <image source="../Art/tileset-pokemon_dawn.png" width="1504" height="2519"/>
+ </tileset>
+ <layer name="Floor" width="18" height="15">
+  <data encoding="base64" compression="zlib">
+   eJz7JcLA8GsQ4Z9UMOP3qDmj5gwSc8JFGRgikDCxepH1RAKxoxAqJsZ9IPvR9aFjdPdhw9jsBwASQwXS
+  </data>
+ </layer>
+ <layer name="Wall" width="18" height="15">
+  <data encoding="base64" compression="zlib">
+   eJybLcLAMIdCPBeIw0UZGCIoxJFAPApGwSgY/AAAvnsUCw==
+  </data>
+ </layer>
+ <layer name="Furniture" width="18" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAOOCDGwFAlzsBQLU5Y7aQMBobJQKydzcCgA8S30hkYbqdD5OSA+m8A8U0izPkANOMjEHcCzegCYgsg2zKDMn9QG/zOGWgXjIJRQH0AAIaxEPU=
+  </data>
+ </layer>
+</map>

@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
  <tileset firstgid="1" name="tileset-pokemon_dawn" tilewidth="16" tileheight="16" tilecount="14758" columns="94">
   <image source="../Art/tileset-pokemon_dawn.png" width="1504" height="2519"/>
  </tileset>
- <layer name="Floor" width="20" height="20">
+ <tileset firstgid="14759" name="tileset-alistair" tilewidth="16" tileheight="16" tilecount="6006" columns="91">
+  <image source="../Art/tileset-alistair.png" width="1461" height="1056"/>
+ </tileset>
+ <layer name="Floor" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKAtOKxFmf42YQaGdirhDiB+AsRPqYSfjZo3at6oeaPmDSHznEQYGJyphF2AGADbCEnR
+   eJxjYKAeOKxFvNogSQaGYDJwiOTA6S0RZ2AoBeIdYgwMO8VI03sJqO8yEIsBsbg4bd3MLEaaXpB6mB566qXEzfRMGy3SDAkwTIbeBTCMSy8AswBWUA==
   </data>
  </layer>
- <layer name="Walls" width="20" height="20">
+ <layer name="carpet" width="15" height="15">
   <data encoding="base64" compression="zlib">
-   eJz7osDA8JVK+BsQBykyMAQj4cNaqHxScAgQbwBiaoFNo+aNmjdq3qh5Q8i8HCUGhlwq4TwgPgXEp6mEzwAxAONGVx4=
+   eJxjYBgFQx0sFGVgWATFi0VJ0/sfST2jGP30xgLVx0FxPIl6hxsAAA/UBwM=
+  </data>
+ </layer>
+ <layer name="Walls" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJz7IsHA8JUM/A1CHyAXM4yCUTAKwAAARJ0qxw==
+  </data>
+ </layer>
+ <layer name="Furniture" width="15" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAfOCDGwHAQiA+Jka5XTpyBQR6IFcSp7y5ygbYIA4OOCKpYBdB9lUAcLMTAEALEoULY9XYC9XWh6b0G1HcdiDcC9WwC4s1IehWkiXfXbX+GBQ1ADOPXAfXW49F/w5+B4aY/hH0HqK8RSS8+fSBgHMDAYBKA3V5SALq9IwkAAFGUHaA=
   </data>
  </layer>
 </map>
