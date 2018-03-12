@@ -1,24 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="60" height="40" tilewidth="16" tileheight="16" nextobjectid="1">
  <tileset firstgid="1" name="tileset-alistair" tilewidth="16" tileheight="16" tilecount="6006" columns="91">
   <image source="../Art/tileset-alistair.png" width="1461" height="1056"/>
  </tileset>
  <tileset firstgid="6007" name="tileset-biome" tilewidth="16" tileheight="16" tilecount="9384" columns="136">
   <image source="../Art/tileset-biome.png" width="2176" height="1104"/>
+  <tile id="199">
+   <objectgroup draworder="index">
+    <object id="1" x="2.95652" y="16">
+     <polyline points="0,0 0,-3.95652 1.04348,-3.95652 1.04348,-7 10,-13 13,-14.0435 13,0 -0.0869565,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="200">
+   <objectgroup draworder="index">
+    <object id="1" x="0.0434783" y="2.04348" width="15.913" height="14"/>
+   </objectgroup>
+  </tile>
+  <tile id="201">
+   <objectgroup draworder="index">
+    <object id="1" x="12.9565" y="16.0435">
+     <polyline points="0,0 0,-4 -0.913043,-4 -1,-7 -7.95652,-12.1304 -10,-13 -13,-14 -12.913,-0.0434783 -0.0869565,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="202">
+   <objectgroup draworder="index">
+    <object id="1" x="16" y="14">
+     <polyline points="0,0 -2,0 -1.95652,2.04348 -5.04348,2.04348 -5.04348,-3 0,-3 0.0434783,0.0434783"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="203">
+   <objectgroup draworder="index">
+    <object id="1" x="5.04348" y="16.087">
+     <polyline points="0,0 -0.0434783,-6.17391 -5.13043,-6.21739 -5.04348,-2.13043 -3.04348,-2.08696 -3.04348,-0.0869565 0.0434783,-0.0869565"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="335">
+   <objectgroup draworder="index">
+    <object id="1" x="2.91304" y="0" width="13.087" height="16.0435"/>
+   </objectgroup>
+  </tile>
+  <tile id="337">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="0" width="13.0435" height="15.913"/>
+   </objectgroup>
+  </tile>
+  <tile id="471">
+   <objectgroup draworder="index">
+    <object id="3" x="3.95652" y="0.0434783">
+     <polyline points="0,0 0.0434783,12.8696 5.04348,14.9565 12.0435,15 12.0435,0.0434783 -0.130435,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="472">
+   <objectgroup draworder="index">
+    <object id="1" x="-0.0434783" y="0.0434783" width="16.1304" height="15.0435"/>
+   </objectgroup>
+  </tile>
+  <tile id="473">
+   <objectgroup draworder="index">
+    <object id="2" x="12" y="0">
+     <polyline points="0,0 -0.0869565,12.913 -5.04348,15.0435 -12.0435,15 -11.9565,0 -0.0434783,0.0434783"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="786">
+   <objectgroup draworder="index">
+    <object id="1" x="14" y="15.9063">
+     <polyline points="0,0 -0.03125,-15.875 -13.9688,-15.9063 -14.0313,0.0625 0.03125,0.03125"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="922">
+   <objectgroup draworder="index">
+    <object id="1" x="12.9688" y="16">
+     <polyline points="0,0 0,-4.96875 -2.96875,-7.125 -3.03125,-10.9375 0,-14.0313 0.03125,-16.0313 -12.9375,-16 -13,-0.0625 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1058">
+   <objectgroup draworder="index">
+    <object id="1" x="14.0313" y="15.9375">
+     <polyline points="0,0 -0.09375,-15.9688 -14.0625,-15.9375 -14.0625,0.0625 -0.0625,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1194">
+   <objectgroup draworder="index">
+    <object id="1" x="0.03125" y="10.9688">
+     <polyline points="0,0 6,-0.03125 8.875,-2.03125 10.9063,-5.875 12.9375,-9.03125 12.9688,-10.9688 -0.03125,-10.9375 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1281">
+   <objectgroup draworder="index">
+    <object id="2" x="15.9778" y="16">
+     <polyline points="0,0 -0.0222222,-15.9556 -13.9778,-16 -15.9778,-14 -15.9778,-0.0444444 0.0222222,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1282">
+   <objectgroup draworder="index">
+    <object id="1" x="13.9556" y="-0.0222222">
+     <polyline points="0,0 2.02222,2.02222 2.02222,16.0222 -13.9556,16 -13.9333,0.0444444 -0.0222222,0.0222222"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1333">
+   <objectgroup draworder="index">
+    <object id="1" x="2" y="0.0434783" width="14.0435" height="15.8696"/>
+   </objectgroup>
+  </tile>
+  <tile id="1334">
+   <objectgroup draworder="index">
+    <object id="2" x="-0.0434783" y="-0.0434783" width="14" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="1416">
+   <objectgroup draworder="index">
+    <object id="1" x="1" y="11.9778">
+     <polyline points="0,0 -0.0222222,-4 3.0625,-10.009 8,-9.97778 11.9375,-3.97778 12,-0.0715278 8.03125,1.99097 3.03125,2.11597 -0.03125,-0.00902778"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1417">
+   <objectgroup draworder="index">
+    <object id="1" x="-0.0869565" y="0">
+     <polyline points="0,0 0.0434783,2.95652 6.08492,8.90421 6.10918,10.9333 4.08696,16 16.0557,16 16.1182,0 -0.00679348,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1418">
+   <objectgroup draworder="index">
+    <object id="1" x="16.0444" y="2.95556">
+     <polyline points="0,0 -6.08889,6.08889 -6.08889,8.02222 -4.02222,12.9778 -16.0667,13.0444 -16.0667,-2.97778 -0.0888889,-2.93333 -0.0444444,0.0222222"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1553">
+   <objectgroup draworder="index">
+    <object id="1" x="16" y="0.03125">
+     <polyline points="0,0 -14.0313,-0.03125 -15.9375,2.03125 -16.0313,15.9063 -0.03125,15.9375 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1554">
+   <objectgroup draworder="index">
+    <object id="1" x="16.0625" y="1.9375">
+     <polyline points="0,0 -2.15625,-1.96875 -16.125,-2 -16.0625,14 -0.0625,14.0313 -0.03125,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1560">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="2">
+     <polyline points="0,0 -0.0434783,13.9565 16,14.087 15.913,-1.95652 1.95652,-1.91304 -0.0434783,0.0869565"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1561">
+   <objectgroup draworder="index">
+    <object id="1" x="15.9565" y="15.8261">
+     <polyline points="0,0 0.0434783,-13.7826 -2,-15.8261 -16,-15.8261 -16,0.217391 -0.0434783,0.173913"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1696">
+   <objectgroup draworder="index">
+    <object id="1" x="15.9565" y="13.087">
+     <polyline points="0,0 -9.95652,-4.13043 -15.913,-10.0435 -15.9565,-13.1304 0.0434783,-13.087 -0.0434783,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1697">
+   <objectgroup draworder="index">
+    <object id="2" x="0" y="13">
+     <polyline points="0,0 10.0435,-4 15.9565,-9.95652 16,-13 0,-13 -0.0434783,-0.0869565"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1963">
+   <objectgroup draworder="index">
+    <object id="1" x="0.977778" y="11.9778">
+     <polyline points="0,0 0.0222222,-4.02222 1.02222,-3.97778 1.02222,-5.97778 2,-6 2.02222,-7.04444 3.04444,-6.97778 3,-9 5.02222,-8.97778 5,-10 7.97778,-9.97778 8,-9.02222 9.04444,-9.02222 9.02222,-7 9.97778,-7 9.97778,-6 11,-5.97778 11.0222,-4.02222 11.9778,-3.95556 12,0.0222222 11.0222,0.0222222 11,1.02222 7.97778,1.02222 7.97778,1.97778 3,2 3.02222,0.955556 1,1.02222 1.02222,-0.0222222 -0.0222222,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="2149">
+   <objectgroup draworder="index">
+    <object id="1" x="1.91304" y="0" width="14.087" height="16.0435"/>
+   </objectgroup>
+  </tile>
+  <tile id="2150">
+   <objectgroup draworder="index">
+    <object id="4" x="-0.0434783" y="0.0434783" width="14" height="15.913"/>
+   </objectgroup>
+  </tile>
+  <tile id="2503">
+   <objectgroup draworder="index">
+    <object id="1" x="0.96875" y="11.8438">
+     <polyline points="0,0 0.03125,-3.84375 1.03125,-3.84375 1,-6.90625 2.03125,-6.875 2.01319,-8.86181 3.04444,-8.83472 3.03542,-9.82153 8,-9.84375 7.96875,-8.84375 10,-8.84375 10,-6.90625 10.9688,-6.84375 11.0625,-3.90625 12.0625,-3.875 12.0667,0.195833 11.0715,0.178472 11.0667,1.20069 8.09375,1.15625 8.03125,2.125 3.03125,2.15625 3.03125,1.15625 1,1.1875 0.96875,0.1875 0,0.1875 0,0.03125"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="2643">
+   <objectgroup draworder="index">
+    <object id="4" x="0.956522" y="11.9565">
+     <polyline points="0,0 0.0434783,-3.91304 1.06793,-3.9375 1.02785,-5.95312 2.0625,-5.93207 2.0591,-6.98234 3.05027,-6.97894 3.04348,-9 5.03804,-8.95652 5.0659,-9.96196 8.01902,-9.95652 8,-8.95652 9.02785,-8.95992 9.02446,-6.94293 10,-6.96332 10.0503,-5.96875 11.0346,-5.95652 11.0469,-3.95313 12.0469,-3.92867 12.0435,0.080163 11.0346,0.00203804 11.0503,1.03804 8.02785,1.05027 8.04348,2.13043 3.02446,2.06454 3.09035,1.0625 1.03465,1.05027 1.04687,0.0346467 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
  </tileset>
  <layer name="Ground" width="60" height="40">
   <data encoding="base64" compression="zlib">
-   eJzdmV1u00AQx30CXvpCSFpbrtT2KX1ruQk34QacgjskvCF6AR4BibMg8YAgq2TU4e/Z+VhP0kKkv+TYu2v/PB+7Oz5bdt3Dedf9XnXdi4u9Nn3Xvb+wdT/4VNr+WO5l9fOMzZ/hdphKe+azA29RhPfDrs27c5/KeMRr9SttPW003i8LWRqv9b7omX6tbCGv1VZrU+Ol/zVWi7c2nsR7tTu+FrQedEl9tgfh+Zve5r0H23L/j/IiM+e1/J/4+PG64jda/Gi8dL1cK2zYPuLPt5W8wW3i4UVl83K2Oby1eKL7WrwZ4j4u5edyzK993fF9W0zbW7xaLt44bJvJi7FVs7kmjZe3k3JL5Hmj/ivx4vxr8Urzdev8G+FsiVeUxKbx8mt3LOdwXlImL2em/29exbQe5vFyZfNaa8soKwnt5eVFIa/kz9aayLMuwpweEfLydacWv1LO8cSvxvFzuRfdvxzz89m8GJOUNy97XdF8Jb0rLlofS9du2Hto4aV9lba2vFTGbeFF4fpr7PW19hz70rskbsmPNbtm8ErMGq/Hvt8Xj8djL/PyPRbxfhymKj9uX2KeO/969tgZ9h1ZzLweprwjcKM/Z/F65LWvx58LK+3L0L6cOYP388u9Wngz4hdrDFeHsSR/9vDW5t/nYl+sMRCr1Z/ngn+VdxPgLbYdk+2r+XoG79jHeHFeyubl3Ke0r2bTp/Tn7HyF42hrSK4Ir3d9cSz78vXq1sl3DF5rD1irPbUwU52jtY4U9Wdk9XxnyKzreeM3ixe5eUzRHhD3hFTX+594C1ftO0MWK+m6/zvnRsRZ367m2VfqN854Nkst47byEjPnvXPkLZL3Wyqvp+K3r+h9kLdl/4vxy+s8Us1n2z/Oxxjr2J7PYfitT6sx4X34eaxNRtcb0e/A9BzePtTv0zDljd4ng5fi2Kpv4dzraU+S6rOR3Mbvn8XrWWe15C6tJt3Sd078ZslbQ4hyS9dPUc+xWJ+K91j7oyzeuf7xHHhPrT8WTVjt
+   eJztwzENAAAMA6D6mH+R/aphPyT0kqqqqqqqqqqqqvo+G94cFw==
   </data>
  </layer>
- <layer name="Trees" width="60" height="40">
+ <layer name="Road" width="60" height="40">
   <data encoding="base64" compression="zlib">
-   eJztmEFOwzAQRYdNgR3ZQEJoRSLWSKhZwSHgGj0BQhwAsWlhyXXgRJwAbCQriVWSccfTjC0/aZRESlp7vj3f9nMBf6znALc5wF0O4tFt3ah4U/E+d/s2K9v7T9XXr4H+ztRvH6o4UnHs+D8+OV0AnKjIVBQLt28/yvF3DJS8+oTSjm+H8avzeqYi3yGvPqHo+1TwtIkTir4H5zxt4sRFX7vmvAbYXxd97XczZL0yOZKAi752zcHUZyl12Ud7Voj6rOeAyWfo/ovxI5PPVSlDZ4q+GD/qzgGq/3brJfZqjyXKOmDfftTVBnv1OZb27UfbxsrY1edaDutHseCyX8Ay64y/Kev4NjB+tAtS9o42Lvsjm//6pOeotDWKgbI/GuqTzsV9DfBQy9KX4kdDPihVXy4/0rkw+k55NmDD5UdS9eXwI41UfSn1eQip+nKdX0k527MJ8fyKspaJ/fzKJsT9AmWucNVnqVQXU7cgbK4v+5FIJBISSTVKHo9V/7latvdXS4iOn2r8nZh4qfvPN0173zQQHb+YXWV5
+   eJztmllOAzEMQHMPkNov4ARshy6dnoBb8Qm1kCVjvMXOpB2BJUtQJk6e7cTOlNa+5fO2bVI+bn5rdIxlgz9zt2vtPqAPu5++lOxZc3nrqPBqc+HPVA5njreAnoJ+6VHw4WhejZ/zvu5bexL0ZW/7QRsXsXUkvD15xpmjY0EXYW4qjw7D896PA7VFmemc0TyTfLQEx2p2uP9QYf9m8g4FxlNmiVfKl6qPpHzsiVNVDsbaJb8flLh4vJLvgBNjN0tm8dJnMTdnC8x5Cd7emI7yz6V4IyKdT3ztGa3wYh+wBi9fp9VfzeJFjfCO6pF4ze/1n8YL56lUJ6QeIMI7SnvzhPJCjmi8vXZn8Z6SMfbiO5LX6nO9HnlUjPH8m8Fr2fJ6ZK+vi0okvj29apZXq8O85mp1MCpRXpzX6w+yvFEZzUvrxTIxvlEZzcvPF6hFvMeJrudaeWk9yqyP5vgWeHl8e+6jfD9rvJgr1X6/ysvrEdqBzzP3UY2XngMVWSO+PXai8aXnfOVefyleXHOGV7uzWH+T3ouNyGftfiCxSr9zXnoWSEwaI35OOXk/mn3fpfUbGeG8eBZYc1sxPTO+a/HM7guwje8o1+CNzG/dyUfWM75W7K+y9+kqL83vGbxZ23juZtao7WHJVqSHj0qFF9Yhfa8QtSPtXW4L7/hSDbfOQMmfPDbSPcGrGZUe0mOlzKO+G1yKdqs9s3V32YpmeKPvOq5R8T4ZkWzvlXlOG+vFgtrf0v9taD7ynt+qaGe29/y//B35AoffkAs=
   </data>
  </layer>
  <layer name="Rock Formation" width="60" height="40">
   <data encoding="base64" compression="zlib">
-   eJztWUuO2zAM1THsQYHEPkG76LJp0nUnTT/LHrA9QI8wznRmO0foPVoZLetn5kmibOWDYAgQyMei+PQokpKdc+73CzeSbe3ch4K6q8vaRntMQnN0VXzctckz3kG+LZz7vjidL6eQGN6XS+deLW12Vt7OW9C113YxqEi7iI9jui4Yg6XiubfzVP/Vvf98D3Y1Rj1uT3Tj9V11aKuEn6XsoL/3Bt5Q99WwVr3+9PqgbFl4xnhhz5fGi7ygstqwJzjZd2sNEj/EBxYXU/H2Mcr2HvLC6mVXDXUwhlGrNaY78KEkXhnLOI3x0f3zI7fnsHCLPoXWaGu0E7ONnKa42Gb4PtUnljNLSIijY+JJiXDQYy6N99Lkth5zcM51P4VI/uy5DfUtqzNxbumrcvurVO/Sx/e5zgsh3+bUolA+wfpkxcv4+LGcDPc/XrG7jtTjqXmH9XxWvIyPN433txme2TT2+OsAq/gyl9+Yz5Kv5+C9a8bY+mce/G+PBtxdddgbsH17bn4xrm9bv2fa4ZmP/vMnr5+9fmnjfmq8IV5L4O3HS33Kxas5QV+29XiOXLy6h87By/ILOzdY8fZYvt4c4r1rxvE3B+8cftnasXNDTj3qn9X9C86xg/5ml+jnQnh1X5qDN3TGmopXOGY29Tk75adeO4yLnPws87LcxPrK3H4j5xwX61+1f4hX5+jUeQvvDtjcem9bJXYPlSshvIzbVDynzrz6nG6VY+LVcaP5TtVyvaeYSv6KyabhfUCurNTYVG7W+9kS06k7NNGYj+/rQxu6r7KI+KLvJFndRb6xBlh51vctYl9iJzWe2cjteTBeY7ymlM2L597csSG8rPeZImiz1HtBa81I3XfE9tiUmNa+Xdp9i6XfuyZBvHjumcvxpQr2j6zfu8Y7z183Ze79jy2s18iJvZz7w1OppfaG8gviSY1P1TVUts9jGrqvE7W+B8b3Cgwv4rGuF1O9FjLudWQMYpDzWei+jr0HDnGvfcL/cT1y8Kb4i51jEQPGF8uDofoX+j82n9Y/acutBQ==
+   eJztmUtSwzAMhn0M0mHT3IFteKwhPJdcF0rDNbgHxAsNipBsyVHqNoNmtKqt6PPvyooTQgjf52FifRPCvaM/NL6xcTzOpGe8n6Xnrc3+eddtXrzdGOcS+ZUyLp3HuTaWxrx4Y5wd8g9lXDoP/Hr0G2Ms7fO84uB89wrdwDneOH8gsTQ64/3CjffmxbpIekljUh7n5M4gyAPic/tiDi9eS6zFgHLE5yWsScxD2seSW/4fkIM3r6QpcFI9MK+159Boi58hrVGvjJOKjTVNadEbc5+Tk3ediyZptCRPzpbkPTa7a6Ya1Fz3Q1iud4nnU1dJc01fZe2vcjUfzoUaZjmPtP9DWk/oGW/h5fSY09cuwZt7hoWXy4/m0RnW4RR537ZTNhjzuc1znyJv9L79HfPY6vM8JC/u9+by4lws74TevFx9GYQcNRZr3+uG39M0fg3eVLwSXmuOa+CVNK7JC/uY7i36LlrCC8we73BevD3TV6TmrKG/0vQGeGwNs/DG92vrWS7dnw0ZXq8+kvZetWrfLlMLbpu/42lfpTF8F8LVF43GqTtHTQyoYSXrZu15euGdxerSHdxSdaCUl4uJz4w5NV97ZuTuO1K8JXua5nZs9y2a+4I1WY63VONjNU3/uDaNvzY+9/5L29w+wXJ/eCi39lh472Ee7XyNP7UhPI/+0pbN53oEzXfgHC/+3ZMX5l04sEbH36Zi/tK+4/q1vfC7hTenH/4G6MFL9SrVAfsPrDLV5A==
+  </data>
+ </layer>
+ <layer name="Trees" width="60" height="40" opacity="0.99">
+  <data encoding="base64" compression="zlib">
+   eJztmF1SwyAQgNeXqo++RK1NMnW8gT2C3kDPop5A8+LPY+9Ub6BnUZgpkqFkExbWQMo309mHhoTwbVigmcMfbyXAewkojwuApwV+jclrqe/90XP/oWD9OBTPOCp3o+TkQl93WgGcVd3PmMk24ncgfseO/e67tzPbfthQY2tGSTO3t+niRbRrAjnyAfOrxtaMkrbfPopW2/OQriggfjFc/cYCZR6RuPiNioF+Z8Y12e8u7TFynZfZIHy/cs4Z6ndIbf5P2L/f7Xiq2j26Z+b52Va7x4TTb2Gp3dT6a86XQ7DmUkL1t2u9h60DTVKpv7Zc6YvWXIrYL8fcFpNfyjfqTMR+OaDu03z92vKqqLr/CwV1P+3tF8srYs5x4usXyytOv1R8/aJ5NUG/GFP0i7JnfmM522vD6Tf4GWwAUjy/8jlvSXV9Rd2Hp+hXQt2HrxN9XyrLyOpjJpPJZPaXrxrgu9ZxyjwsAW7EGuW20lFxdT1ev7j4Ee+7Ee/4Wek4ZZ4vAe5EDt/XOipWq/H6xcUvUTdTog==
+  </data>
+ </layer>
+ <layer name="Upper Rock Formation" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJztmVFuwyAMhnMM8tiLdGsPkO3IeYqaPu9AxVJRPOunAUwHYXxSpDYhxsb2T5oOQ6fT6fw/7qe892vt1crFDMPVlPYijp9x++zyws+h727camO9m9djW+MItRvbb63nrARH1AINSAs6naPCNbE2fUR6zvUm1x5VS9xnG9fH8/h8xliL3iDftPZ4XDfzO5+lc7II3xAxPi7CBtnka5prXVN7Yhq3vlo9vpwj/JTxWtuz7d2Zn/Ot61+xl2N3PcRPGS9CG6+2J7iPlA+b8xldryVeLbymCfKH1tDVMekP7SffAeuK4qV7v8btCLHDeYfGTcAfdC7GzjWiLlpgYTqYos+l965QnJ++Xm4137y2NfVd+zsS32/zGJ1/RWqd5+gPtPb8WZlfnxL1mUC+hub9Hc93MfOHjtfEyEHPuC2D4j2K9qcg410z13VtTGJ/cLRe13J/JN1sua47dZL7/1gC1bGvtvfG+t6JyXlz9U7pHnT6T35oNTDHs/PeeoTOIe3w9wOOm8FjfT6EzI3ufQC1L4R4
+  </data>
+ </layer>
+ <layer name="Foreground" width="60" height="40">
+  <data encoding="base64" compression="zlib">
+   eJzt10EKgCAQheHZ1RHcdMm6h9CNC6KSKFFCm7H/29giSn06lsjGD3KYg+tQyj01aOmHBj4y/ty50TKvWvqBMsi3bTXy7dbn9j9ZO9r2i7b+WHd3hnP+pttrQWprWex778k1Q2v5Ig/51hOrKaXqzVf5xt7LmrOPfP+LfNtGvnijhX+nVOwVAADsGZ3I5M4WADRaABCmJAQ=
   </data>
  </layer>
 </map>
