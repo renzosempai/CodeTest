@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.2" orientation="orthogonal" renderorder="right-down" width="18" height="15" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="18" height="15" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
  <tileset firstgid="1" name="tileset-pokemon_dawn" tilewidth="16" tileheight="16" tilecount="14758" columns="94">
   <image source="../Art/tileset-pokemon_dawn.png" width="1504" height="2519"/>
  </tileset>
@@ -14,14 +14,29 @@
    eJz7JcLA8GsQ4Z9UMOP3qDmj5gwSc8JFGRgikDCxepH1RAKxoxAqJsZ9IPvR9aFjdPdhw9jsBwASQwXS
   </data>
  </layer>
+ <layer name="Carpet" width="18" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQxnsTWNg2EcA708jbI50OgODDAEsm04/cyqBaqoI4GoizBkJAJYGFokyMCwWJd8cWJjHiTEwxIvhVwsAOZckzw==
+  </data>
+ </layer>
  <layer name="Wall" width="18" height="15">
   <data encoding="base64" compression="zlib">
    eJybLcLAMIdCPBeIw0UZGCIoxJFAPApGwSgY/AAAvnsUCw==
   </data>
  </layer>
+ <layer name="Windows" width="18" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgSE1mYEgDYmIBqepHwSgYBcMLAADc0AMj
+  </data>
+ </layer>
  <layer name="Furniture" width="18" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOOCDGwFAlzsBQLU5Y7aQMBobJQKydzcCgA8S30hkYbqdD5OSA+m8A8U0izPkANOMjEHcCzegCYgsg2zKDMn9QG/zOGWgXjIJRQH0AAIaxEPU=
+   eJxjYKAOOCDGwFAlzsBQLU5Y7aQMBobJQKydzcCgA8S30hkYbqdD5OSA+m8A8U0izPkANOMjEHcCzegCYgsg2zIDImeZysBgBcTWqQj1MDFiMUjvdCCeAcQzkcyBiRGLQXq/AvE3IP6OZA5MjFiMrJcW4IY/MNz9cdPEAuMABgaTANz0UATLMqmjhiWLOmoGGgAA+RFPUA==
+  </data>
+ </layer>
+ <layer name="StuffonFurniture" width="18" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowABuLNIEx8FIxMAAPELAOs=
   </data>
  </layer>
 </map>
