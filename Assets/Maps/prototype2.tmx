@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="20" tilewidth="16" tileheight="16" nextobjectid="1">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="36" height="24" tilewidth="16" tileheight="16" nextobjectid="1">
  <properties>
   <property name="unity:scale" value="0.0625"/>
  </properties>
@@ -248,12 +248,12 @@
   </tile>
   <tile id="251">
    <objectgroup draworder="index">
-    <object id="1" x="2" y="3.96875" width="13.9688" height="12"/>
+    <object id="2" x="2.9375" y="10" width="13.0625" height="6"/>
    </objectgroup>
   </tile>
   <tile id="252">
    <objectgroup draworder="index">
-    <object id="2" x="0" y="4.03125" width="14" height="11.9375"/>
+    <object id="3" x="-0.03125" y="9.9375" width="13.0313" height="6.0625"/>
    </objectgroup>
   </tile>
   <tile id="381">
@@ -266,10 +266,24 @@
     <object id="1" x="-0.03125" y="-0.03125" width="14" height="12.9688"/>
    </objectgroup>
   </tile>
+  <tile id="523">
+   <objectgroup draworder="index">
+    <object id="1" x="15.9688" y="10.9688">
+     <polyline points="0,0 -5.96875,0.0625 -10,-2.03125 -10.9375,-5.9375 -12.9375,-9 -12.9688,-10.9688 0.03125,-11 0.03125,0"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="524">
+   <objectgroup draworder="index">
+    <object id="1" x="0" y="11">
+     <polyline points="0,0 5.9375,0 10.0313,-2.0625 10.9375,-5.96875 12.9688,-8.96875 13,-11 -0.03125,-10.9688 0,0"/>
+    </object>
+   </objectgroup>
+  </tile>
   <tile id="1416">
    <objectgroup draworder="index">
-    <object id="19" x="0.980782" y="11.7149">
-     <polyline points="0,0 0.0544879,-3.70518 1.03527,-3.70518 0.980782,-6.7565 1.90708,-6.64752 2.07054,-8.71806 2.94235,-8.66358 2.99683,-9.64436 8.00972,-9.69885 8.00972,-8.82704 9.9168,-8.77255 10.0258,-6.81099 11.0066,-6.64752 11.0066,-3.81415 12.1508,-3.75966 12.0963,-1.85259 12.0963,0.108976 10.9521,0.272439 10.8431,1.47117 10.1347,1.25322 10.0258,-0.762831 8.9905,-0.653855 8.9905,1.03527 7.95523,1.41669 7.95523,2.234 5.99367,2.50644 6.04816,0.544879 5.01289,0.326927 5.12186,2.07054 3.05132,2.234 2.88786,1.3622 1.19873,1.3622 0.871806,0.435903 0.0544879,0.108976"/>
+    <object id="20" x="1.04348" y="11.8696">
+     <polyline points="0,0 -0.0657005,-3.78068 0.978744,-6.86957 3.00097,-9.86957 7.9343,-9.89179 10.9121,-6.86957 11.9343,-3.82512 11.9565,0.108213 7.88986,2.10821 2.9343,2.15266 -0.021256,0.0637681 -0.021256,0.0193237"/>
     </object>
    </objectgroup>
   </tile>
@@ -285,12 +299,16 @@
   </tile>
   <tile id="2285">
    <objectgroup draworder="index">
-    <object id="1" x="2" y="0" width="14" height="12.9063"/>
+    <object id="2" x="16" y="11">
+     <polyline points="0,0 -5.96875,0.0625 -9.96875,-2.03125 -10.9688,-6 -13.0042,-9.01458 -12.9844,-10.9844 -0.03125,-11.0313 -0.03125,0.03125"/>
+    </object>
    </objectgroup>
   </tile>
   <tile id="2286">
    <objectgroup draworder="index">
-    <object id="1" x="0" y="0.03125" width="13.9688" height="12.9688"/>
+    <object id="1" x="0.03125" y="11">
+     <polyline points="0,0 5.90625,-0.03125 8.9375,-1.03125 10.9688,-5.96875 12.9375,-9 12.9688,-10.9375 -0.0625,-10.8438 -0.0625,0.03125"/>
+    </object>
    </objectgroup>
   </tile>
   <tile id="2557">
@@ -298,6 +316,16 @@
   </tile>
   <tile id="2558">
    <objectgroup draworder="index"/>
+  </tile>
+  <tile id="2559">
+   <objectgroup draworder="index">
+    <object id="1" x="2.95652" y="9.91304" width="13.0435" height="6.08696"/>
+   </objectgroup>
+  </tile>
+  <tile id="2560">
+   <objectgroup draworder="index">
+    <object id="1" x="-0.0434783" y="10.0435" width="13.0435" height="5.95652"/>
+   </objectgroup>
   </tile>
   <tile id="2693">
    <objectgroup draworder="index">
@@ -330,29 +358,29 @@
    </objectgroup>
   </tile>
  </tileset>
- <layer name="Ground" width="32" height="20">
+ <layer name="Ground" width="36" height="24">
   <data encoding="base64" compression="zlib">
-   eJxboMHAsGAUj+JRPIpH8SgexaOYRBwgC8ED7Y5RTDoGAOZ081o=
+   eJxboMHAsGAA8T8ZVDyQbhl1z6h7Rt0z6p5R94y6Z9Q9o+4hFgfIQvBgcc9gC5/h7J422VE8isnHAC4fpzk=
   </data>
  </layer>
- <layer name="Road" width="32" height="20">
+ <layer name="Road" width="36" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwnU5VGxhjx97V8vj4o3DLD9m+TpGybmCtixpQJ1w0RcGoJrJRE0uxQDA5MsJgaBdVSOkxpJhBtA9sLYMPuQAUiMFvbDMLI7sIFv0pTbD9RzAFkvsv3I7iDGfmxpkhC2UoDYT0gvMfbTEg+0/TB7QPH0TRq7/RuBcYkrnwLD8AAyxqUOF96II443ItlPSfoHpbNapDQHSvPIeYCYMCLXfuS0Xosl74H4tLSfGEBMHFko0M7+kQ4AwHCTdA==
+   eJztlU0OgjAQhYkbziBo2p3ewJ+7eQvPgeIJPBUulZFMWoY3pSQGXPQlL+rY0i9v2pJlSSG9SvdJvhautoR2pu+96ZiW0s30fTcuK5nZHLlJnofBmc3Fc7DYJzvMbLUdmrKT31G/0dwcjPOfxyZVoIeIgfzeDGshnrwIj0M1xIPYpYlNeyb/F8oHidYN5aPlxG7K75wnz9X6hbiR6HnVyB4f89l2PFPnxvDM6X/j4XWpz03p9oXPU7d7QbsX2oyfvrVxsa6VPVJ7PJJVu3fkGWNf1visk+mc0Hi+b2MyJB65Blo/xOgz+VxSsTzE3gjTmrKm1WWNf0vF9PRo9bvh15Lvb7+XXKdaUlLSdH0AJfLgeQ==
   </data>
  </layer>
- <layer name="Trees/Rocks" width="32" height="20">
+ <layer name="Trees/Rocks" width="36" height="24">
   <data encoding="base64" compression="zlib">
-   eJzLkWBgyAXinAGivwDxVyx0iDwDQ6g87Wlc4A5Q7q487WlcIEWBgSFVAZOml//pFS6kAlzhQi49GMF/mYF2wSgYBQMDRtP+KMAG/igyMPxVpD5NLGhRYmBoVaI+/QvY1vktMXA0AKjksaE=
+   eJzLkWBgyAXinAGiz8gxMJyVQ9BfgGJfJTDpEHkGhlB5+tO4wB2g3F152tPo4YMLpCgwMKQqYNIDFT70Cjdiw4fUcCOXpjR8qA2ICZ//MvRzz2ALH+T09FtioF2Dmp6aJQfYMaNgFAwzQGl9QW1Abnn4R5GB4a8i9Wlyw6dFiYGhVYn6NHr4/JKAlNODhR6odikuml7tUmLpgQ6PwR4+AC5SQxU=
   </data>
  </layer>
- <layer name="Infrastructures" width="32" height="20">
+ <layer name="Infrastructures" width="36" height="24">
   <data encoding="base64" compression="zlib">
-   eJzt08kJwkAYhuFfkpzUCdiBW0rRClx6UIMFuFYStQKXHlywANdKXMAX9OohBGcOzgfPZRh45zIidrmU6Rf8bhVHpOro70Y0J5hiZqB/o3nHA08D/ZorUkcDTVd/f05zgSVWBvppTySDLJT3/V5LibTRQajeZ12VrB3G+M9rWhtssft09wn7cZb3RQooooQyAl9fv0erjwGGGGGssX+gdcQJZ1xw1di3s/vnvQAB2xyu
+   eJzt1McJAlEYReErM67UEezAWIpWYOjBgAUYKzFUYOjBgAUYKzGAB3SvA+J7i3fh2ww8/rMaye3TUhHTBf9b0ZNKnukKaUTDGBNMLei50nDDHQ8Lesq+VEEVNd90jTSjYY4Flhb0xKJSHAkE0e/f1QOpgSZawetbO/htWyvE/2TF7TU22L47dj/uCbN0UsogixzyKCTN9XS43UUPfQwwNNiz5/YBR5xwxsVgj5ubm5ubnXsCiBccrg==
   </data>
  </layer>
- <layer name="Foreground" width="32" height="20">
+ <layer name="Foreground" width="36" height="24">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBTYysvAsA2ItwPxDiDeyUtf+wX4GBgEgVgIiIWBWISPcjOFGcnXmw+0v4AKbiAXnALafXoA7R8Fo2AwgiIJBoZiCerTAw2GijtpBQCokRiF
+   eJxjYBgFo2AUjBSwlZeBYRsQbwfiHUC8k3dg3SPAx8AgCMRCQCwMxCJ81LdDmJF8vflA9xTQwE3kglNAt5weRO4ZBaMAHyiSYGAolkDQQxWg+4Na9GAHw8Ufo2AUDEYAAOdmGq8=
   </data>
  </layer>
 </map>
